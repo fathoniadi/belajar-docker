@@ -20,6 +20,7 @@ Aturan main:
 8. Code api di folder api di repository ini
 9. Untuk base image api menggunakan fathoniadi/nginx-php:fs-7.4-2.0
 10. Yang private biarlah private
+11. Upload image API dan CDN ke docker hub
 
 
 
