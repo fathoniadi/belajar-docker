@@ -19,6 +19,7 @@ Aturan main:
 7. Config nginx dapat menggunakan nginx-default.conf dan di mount ke /etc/nginx/conf/sites-enabled/default
 8. Code api di folder api di repository ini
 9. Untuk base image api menggunakan fathoniadi/nginx-php:fs-7.4-2.0
+10. Yang private biarlah private
 
 
 
