@@ -1,14 +1,6 @@
 # belajar-docker
 ## Cerita
-Disuatu hari yang cerah, dua sosok engineer devops sedang pusing dengan pekerjaannya. Engineer itu bernama Rizqi dan Wana. Mereka sedang duduk berdua sambil bertatapan penuh kasih sayang dikarenakan pusing dengan pekerjaan mereka untuk setup CDN, API, Wordpress dan DB Mysql. Untuk CDN berisi file-file image yang boleh dipublish di Internet. Bantulah mereka ya :).
-### Komponen:
-1. Docker CDN: https://nama.fathoniadi.dev/cdn-public
-2. Docker API: https://api.nama.fathoniadi.dev
-3. Docker Wordpress: https://nama.fathoniadi.dev
-4. Docker DB Mysql Untuk Wordpress
-5. Nginx di server
-6. Certifiate agar bisa akses domain nama.fathoniadi.dev dan *.nama.fathoniadi.dev (bisa menggunakan certbot)
-Catatan: 
+Disuatu hari yang cerah, dua sosok engineer devops sedang pusing dengan pekerjaannya. Engineer itu bernama Rizqi dan Wana. Mereka sedang duduk berdua sambil bertatapan penuh kasih sayang dikarenakan pusing dengan pekerjaan mereka untuk setup CDN, API, Wordpress dan DB Mysql untuk wordpress. Untuk CDN berisi file-file image yang boleh dipublish di Internet. CDN Tersebut dapat diakses melalui url https://nama.fathoniadi.dev/cdn-public/image. Untuk Wordpress dapat diakses dengan url https://nama.fathoniadi.dev sedangkan untuk api dapat diakses menggunakan url https://api.nama.fathoniadi.dev. CDN, API, Wordpress dan DB Mysql Wordpress dalam bentuk container. Akses domain-domain tersebut diatur di nginx yang terinstall pada server yang sudah tertanam certificate ssl. Bantulah mereka ya agar bahagia bersama :).
 nama: disesuaikan masing-masing
 
 
